@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind line-clamp;
+@layer base {
+  body{
+    font-family: 'Poppins', 'sans-serif';
+    background: #3f5e60;
+    background: -webkit-linear-gradient(to right, #3f5e60, #002b4a);
+    background: linear-gradient(to right, #3f5e60, #002b4a);
+    min-height: 100vh;
+  }
+}
